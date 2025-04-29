@@ -5,9 +5,7 @@ on:
     branches: [ $default-branch ]
   pull_request:
     branches: [ $default-branch ]
-
-# https://github.com/actions/starter-workflows/blob/main/ci/rust.yml
-
+    
 jobs:
   build:
     name: Build
